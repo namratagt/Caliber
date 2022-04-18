@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title> Caliber LogIn </title>
+	<link href="styles/site9.css" type="text/css" rel="stylesheet" />
+	<link rel="shortcut icon" href="images/psportslogo.png">
+  <style>
+    body {
+        background-image: url('https://cdn.onebauer.media/one/media/6062/00a2/3046/1f21/63dd/bc2d/GamingSetup.png?format=jpg&quality=80&width=850&ratio=16-9&resize=aspectfill');
+        background-repeat: no repeat;
+        background-size: cover;
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: auto;
+      text-align: center;
+        padding: 70px;
+    }
+    #form_id{
+      border: 2px solid white;
+        margin: auto;
+        padding: 100px;
+        width: 33%;
+        border-radius: 28px
+
+    }
+    .paragrah{
+      font-size: 25px;
+      text-align: center;
+    }
+    #username{
+      border-radius: 15px;
+      width: 350px;
+      text-align: center;
+      margin: auto;
+      
+    }
+    #password{
+      border-radius: 15px;
+      width: 350px;
+      text-align: center;
+      margin: auto;
+      
+    }
+    #submit{
+      border-radius: 15px;
+      width: 350px;
+      text-align: center;
+      margin: auto;
+      
+    }
+    .button111{
+      border: 2px solid black;
+      border-radius: 10px;
+      margin: auto;
+      text-align: center;
+      background-color:rgb(136, 68, 68);
+      font-size: large;
+      text-decoration: none;
+      color: black;
+      
+    }
+    .heading{
+      margin: 42px;
+      text-align: center;
+    }
+  </style>
+	<body>
+    <h1 class="heading">Caliber</h1>
+<br><br><br><br>
+	</body>
+	<div class="login0">
+	
+</div>
+
+<form id="form_id" method="post" name="myform">
+  <p class="paragrah"> Login </p>
+  <input type="text" id="username" placeholder="Username" required>
+  <br> <br>
+  <input type="password" id="password" placeholder="Password" required>
+  <br><br>
+  <input type="button" id="submit" value="LOGIN" onclick="validate()">
+  <br> <br> <br> <br>
+  <a href="forgotpassword.html" class="button111" >Forgot Password?</a>
+  <font color="red" size="4em"><label id="error"></label></font>
+</form>
+
+<script src="scripts/login.js"> </script>
+
+</html>
